@@ -1,0 +1,33 @@
+.prices-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prices-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+
+
+
+
+  @media screen and (max-width: 737px) {
+
+  }
+  
+  @media screen and (max-width: 999px) {
+
+  }
+  
+  
+  @media screen and (min-width: 1000px) {
+   
+    .prices {
+      margin-left: 300px;
+    }
+
+  }

@@ -1,0 +1,94 @@
+.contact h3,
+.contact > p,
+.contact .contact-wrapper {
+    margin-bottom: var(--spacing-large);
+}
+
+.contact h3 {
+    text-align: center;
+    padding-top: var(--spacing-large);
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-wrapper ul,
+.contact-wrapper form {
+    width: 50%;
+    padding: var(--spacing-medium);
+}
+
+.contact-wrapper li {
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: var(--spacing-small);
+    margin-bottom: var(--spacing-large);
+    align-items: center;
+}
+
+.contact-wrapper .material-icons {
+    vertical-align: middle;
+}
+
+.contact a,
+.contact .description {
+    color: white;
+}
+
+.contact a:hover {
+    color: var(--text-primary);
+}
+
+.contact .contact-wrapper p,
+.contact a,
+.contact label {
+    font-size: var(--fs-small);
+}
+
+.contact label {
+    margin-bottom: var(--spacing-tiny);
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-bottom: var(--spacing-medium);
+    border: 1px solid var(--border-color);
+    padding: var(--spacing-small);
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 737px) {
+    .contact-wrapper {
+        display: block;
+    }
+    .contact-wrapper ul {
+        width: 100%;
+    }
+    #map {
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 999px) {
+    .contact-wrapper {
+        height: 100%;
+    }
+    .contact-wrapper ul {
+        margin-top: 50px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1000px) {
+   
+    .contact {
+      margin-left: 300px;
+    }
+    .contact-wrapper ul {
+        margin-top: 50px;
+    }
+  }
