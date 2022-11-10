@@ -61,6 +61,10 @@
     border-radius: 3px;
 }
 
+.contact .program {
+    text-align: end;
+}
+
 @media screen and (max-width: 737px) {
     .contact-wrapper {
         display: block;

@@ -87,6 +87,15 @@ header {
 @media screen and (max-width: 737px) {
   footer {
     font-size: var(--fs-small);
+    align-items: center;
+  }
+  #map {
+    display: flex;
+    justify-items: center;
+  }
+  iframe {
+    margin-inline: auto;
+    width: 90%;
   }
 }
 
@@ -107,14 +116,7 @@ header {
     position: relative;
   }
 
-
-#map {
-  height: 479px;
-  width: 50%;
-}
-
-
-/* Footer */
+  /* Footer */
 
 footer {
   left: 0;
