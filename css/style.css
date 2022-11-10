@@ -84,19 +84,13 @@ header {
 }
 
 
+
 @media screen and (max-width: 737px) {
   footer {
     font-size: var(--fs-small);
     align-items: center;
   }
-  #map {
-    display: flex;
-    justify-items: center;
-  }
-  iframe {
-    margin-inline: auto;
-    width: 90%;
-  }
+
 }
 
 @media screen and (max-width: 999px) {

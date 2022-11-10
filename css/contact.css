@@ -73,8 +73,13 @@
         width: 100%;
     }
     #map {
-        width: 100%;
-    }
+        display: flex;
+        justify-items: center;
+      }
+      iframe {
+        margin-inline: auto;
+        width: 90%;
+      }
   }
   
   @media screen and (max-width: 999px) {
@@ -92,7 +97,17 @@
     .contact {
       margin-left: 300px;
     }
+
+    .contact-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
     .contact-wrapper ul {
         margin-top: 50px;
+    }
+
+    .contact-wrapper iframe {
+        margin-left: 1rem;
     }
   }
