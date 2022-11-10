@@ -16,7 +16,7 @@
 
 .contact-wrapper ul,
 .contact-wrapper form {
-    width: 50%;
+    width: 30%;
     padding: var(--spacing-medium);
 }
 
@@ -99,8 +99,10 @@
     }
 
     .contact-wrapper {
+
         display: flex;
-        justify-content: center;
+        justify-content:center;
+        align-items: center;
     }
 
     .contact-wrapper ul {
